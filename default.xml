@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com"
+           revision="refs/tags/android-5.1.0_r3" />
+
+    <remote  name="github"
+           fetch=".."
+           review="review.cyanogenmod.org" />
+
+  <remote  name="private"
+           fetch="ssh://git@github.com" />
+
+   <default revision="refs/heads/cm-12.1"
+           remote="github"
+           sync-c="true"
+           sync-j="4" />
+    
+  <project path="build" name="BlackBox/build" revision="BB-5.1" >
+  <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  
+ <!-- BlackBox Repo Starts -->
+ 
+ <!-- BlackBox Repo Ends -->
