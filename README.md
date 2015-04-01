@@ -27,7 +27,7 @@ Next step is to sync the sources so that you can get started with your geeky lif
 The first code will initialize the repo and the second command will start syncing the project. (Grab yourself some coffee, coz its gonna take some time)
 
 
-Time To Build The ROM
+Build The ROM
 -------------------
 Initialize the environment with the envsetup.sh script. Note that replacing "source" with a single dot saves a few characters, and the short form is more commonly used in documentation.
 
@@ -36,6 +36,6 @@ Initialize the environment with the envsetup.sh script. Note that replacing "sou
 
 Codename examples, Nexus 5- Hammerhead. Nexus 6- Shamu. OnePlus One- Bacon.
 
-
-
+Need Help
+-------------------
 **Device isn't supported? Not a problem! Become a maintainer [Read] (https://blackbox-os.gq)**
