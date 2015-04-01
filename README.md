@@ -20,7 +20,7 @@ Syncing Sources
 ---------------
 Next step is to sync the sources so that you can get started with your geeky lifestyle. Run the following code in the terminal window.
 
-    repo init -u git://github.com/SOKP/platform_manifest.git -b sokp-l5.1
+    repo init -u https://github.com/BlackBox-OS/BlackBox.git -b BB-5.1
     &&
     repo sync -f
 
