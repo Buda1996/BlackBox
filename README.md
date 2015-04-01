@@ -36,4 +36,5 @@ Initialize the environment with the envsetup.sh script. Note that replacing "sou
 
 Codename examples, Nexus 5- Hammerhead. Nexus 6- Shamu. OnePlus One- Bacon.
 
-**Device isn't supported? Not a problem! Contact US
+**Device isn't supported? Not a problem! [Read] (https://blackbox-os.gq)**
+
