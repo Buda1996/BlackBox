@@ -39,3 +39,5 @@ Codename examples, Nexus 5- Hammerhead. Nexus 6- Shamu. OnePlus One- Bacon.
 Need Help
 -------------------
 **Device isn't supported? Not a problem! Become a maintainer [Read] (https://blackbox-os.gq)**
+
+**To Read More Details Visit Our Official Site [Read] (https://blackbox-os.gq)**
