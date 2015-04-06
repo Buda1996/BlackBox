@@ -18,13 +18,12 @@
            sync-c="true"
            sync-j="4" />
     
+  <!-- BlackBox Repo Starts -->
   <project path="build" name="BlackBox-OS/build" revision="BB-5.1" >
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  
- <!-- BlackBox Repo Starts -->
- <project path="platform_manifest" name="BlackBox-OS/BlackBox" revision="BB-5.1" />
- <project path="vendor/BlackBox" name="BlackBox-OS/vendor_blackbox" revision="BB-5.1" />
+  <project path="platform_manifest" name="BlackBox-OS/BlackBox" revision="BB-5.1" />
+ <project path="vendor/BlackBox" name="BlackBox-OS/vendor_blackbox" revision="BB-5.1" >
  <copyfile src="tools/build-blackbox.sh" dest="build-blackbox.sh" />
  </project>
  <project path="system/core" name="BlackBox-OS/system_core" revision="BB-5.1" />
