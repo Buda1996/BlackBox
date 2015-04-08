@@ -335,7 +335,7 @@
 <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk-cw-fs" remote="aosp" />
 <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" remote="aosp" />
 <project path="external/zip" name="CyanogenMod/android_external_zip" />
-<project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" />0
+<project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" />
 <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" remote="aosp" />
 <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" remote="aosp" />
 <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" />
