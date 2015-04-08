@@ -27,6 +27,7 @@
  <copyfile src="tools/build-blackbox.sh" dest="build-blackbox.sh" />
  </project>
  <project path="system/core" name="BlackBox-OS/system_core" revision="BB-5.1" />
+ <project path="packages/apps/Settings" name="BlackBox-OS/packages_apps_Settings" />
  <!-- BlackBox Repo Ends -->
  
   <!-- CM/AOSP Repo Starts -->
@@ -474,7 +475,6 @@
 <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
 <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" />
 <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
-<project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" />
 <project path="packages/apps/SetupWizard" name="CyanogenMod/android_packages_apps_SetupWizard" />
 <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" />
 <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
