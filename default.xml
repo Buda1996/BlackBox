@@ -23,12 +23,13 @@
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="platform_manifest" name="BlackBox-OS/BlackBox" revision="BB-5.1" />
- <project path="vendor/BlackBox" name="BlackBox-OS/vendor_blackbox" revision="BB-5.1" >
- <copyfile src="tools/build-blackbox.sh" dest="build-blackbox.sh" />
- </project>
- <project path="system/core" name="BlackBox-OS/system_core" revision="BB-5.1" />
- <project path="packages/apps/Settings" name="BlackBox-OS/packages_apps_Settings" />
- <!-- BlackBox Repo Ends -->
+  <project path="frameworks/base" name="BlackBox/frameworks_base" revision="BB-5.1" />
+  <project path="vendor/BlackBox" name="BlackBox-OS/vendor_blackbox" revision="BB-5.1" >
+  <copyfile src="tools/build-blackbox.sh" dest="build-blackbox.sh" />
+  </project>
+  <project path="system/core" name="BlackBox-OS/system_core" revision="BB-5.1" />
+  <project path="packages/apps/Settings" name="BlackBox-OS/packages_apps_Settings" revision="BB-5.1" />
+  <!-- BlackBox Repo Ends -->
  
   <!-- CM/AOSP Repo Starts -->
 <project path="android" name="CyanogenMod/android" />
@@ -339,7 +340,6 @@
 <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" remote="aosp" />
 <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" remote="aosp" />
 <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" />
-<project path="frameworks/base" name="CyanogenMod/android_frameworks_base" />
 <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
 <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
 <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" groups="pdk" />
