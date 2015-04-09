@@ -22,7 +22,7 @@
   <project path="build" name="BlackBox-OS/build" revision="BB-5.1" >
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="platform_manifest" name="BlackBox-OS/BlackBox" revision="BB-5.1" />
+  <project path="android" name="BlackBox-OS/BlackBox" revision="BB-5.1" />
   <project path="frameworks/base" name="BlackBox/frameworks_base" revision="BB-5.1" />
   <project path="vendor/BlackBox" name="BlackBox-OS/vendor_blackbox" revision="BB-5.1" >
   <copyfile src="tools/build-blackbox.sh" dest="build-blackbox.sh" />
@@ -32,7 +32,6 @@
   <!-- BlackBox Repo Ends -->
  
   <!-- CM/AOSP Repo Starts -->
-<project path="android" name="CyanogenMod/android" />
 <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
 <project path="art" name="CyanogenMod/android_art" groups="pdk" />
 <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
@@ -111,7 +110,7 @@
 <project path="external/chromium_org/third_party/libyuv" name="platform/external/chromium_org/third_party/libyuv" remote="aosp" />
 <project path="external/chromium_org/third_party/mesa/src" name="platform/external/chromium_org/third_party/mesa/src" remote="aosp" />
 <project path="external/chromium_org/third_party/openmax_dl" name="platform/external/chromium_org/third_party/openmax_dl" remote="aosp" />
-<project path="external/chromium_org/third_party/openssl" name="CyanogenMod/android_external_chromium_org_third_party_openssl" />
+<project path="external/chromium_org/third_party/openssl" name="CyanogenMod/android_external_chromium_org_third_party-_openssl" revision="cm-12.0"/>
 <project path="external/chromium_org/third_party/opus/src" name="platform/external/chromium_org/third_party/opus/src" remote="aosp" />
 <project path="external/chromium_org/third_party/ots" name="platform/external/chromium_org/third_party/ots" remote="aosp" />
 <project path="external/chromium_org/third_party/sfntly/cpp/src" name="platform/external/chromium_org/third_party/sfntly/cpp/src" remote="aosp" />
@@ -585,7 +584,6 @@
 <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" />
 <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" />
 <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
-<project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
 <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
 <!-- CM/AOSP Repo Ends -->
 </manifest>
