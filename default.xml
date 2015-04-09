@@ -371,7 +371,7 @@
 <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" remote="aosp" />
 <project path="frameworks/rs" name="CyanogenMod/android_frameworks_rs" groups="pdk" />
 <project path="frameworks/support" name="CyanogenMod/android_frameworks_support" />
-<project path="frameworks/testing" name="CyanogenMod/android_frameworks_testing" />
+<project path="frameworks/testing" name="CyanogenMod/android_frameworks_testing" revision="cm-12.0"/>
 <project path="frameworks/volley" name="CyanogenMod/android_frameworks_volley" />
 <project path="frameworks/webview" name="CyanogenMod/android_frameworks_webview" />
 <project path="frameworks/wilhelm" name="CyanogenMod/android_frameworks_wilhelm" />
