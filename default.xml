@@ -584,7 +584,7 @@
 <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" />
 <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" />
 <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
-<!--<project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" /> -->
+<project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" revision="cm-12.0"/> 
 <!-- CM/AOSP Repo Ends -->
 <!-- Stuff for OTA updates -->
 <project path="packages/apps/OTAUpdates" name="Kryten2k35/OTAUpdates" revision="aosp" />
