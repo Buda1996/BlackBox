@@ -35,7 +35,7 @@
   <project path="bionic" name="BlackBox-OS/bionic" revision="BB-5.1" groups="pdk" />
   <project path="frameworks/av" name="BlackBox-OS/frameworks_av" groups="pdk" revision="BB-5.1"/>
   <project path="external/sepolicy" name="BlackBox-OS/external_sepolicy" groups="pdk" revision="BB-5.1"/>
-  
+  <project path="system/media" name="BlackBox-OS/system_media" groups="pdk" revision="BB-5.1"/>
   <!-- BlackBox Repo Ends -->
   <!-- TWRP from OmniROM -->
   <project path="bootable/recovery" name="android_bootable_recovery" remote="omni" groups="pdk" />
@@ -571,7 +571,6 @@
 <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" />
 <project path="system/extras/su" name="CyanogenMod/android_system_extras_su" />
 <project path="system/keymaster" name="CyanogenMod/android_system_keymaster" groups="pdk" />
-<project path="system/media" name="CyanogenMod/android_system_media" groups="pdk" />
 <project path="system/netd" name="CyanogenMod/android_system_netd" groups="pdk" />
 <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" />
 <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" />
