@@ -36,7 +36,11 @@ Initialize the environment with the envsetup.sh script. Note that replacing "sou
 
 Codename examples, Nexus 5- Hammerhead. Nexus 6- Shamu. OnePlus One- Bacon.
 Or simply run our build script
+```    
     ./build-blackbox.sh
+    
+```
+And follow the on screen instructions
 
 Need Help
 -------------------
