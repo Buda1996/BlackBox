@@ -35,6 +35,8 @@ Initialize the environment with the envsetup.sh script. Note that replacing "sou
     brunch [Codename] (Codename is the Codename of your device -_-)
 
 Codename examples, Nexus 5- Hammerhead. Nexus 6- Shamu. OnePlus One- Bacon.
+Or simply run our build script
+    ./build-blackbox.sh
 
 Need Help
 -------------------
