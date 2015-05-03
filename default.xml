@@ -7,8 +7,14 @@
            revision="refs/tags/android-5.1.1_r1" />
 
     <remote  name="github"
-           fetch=".."
-           review="review.cyanogenmod.org" />
+           fetch=".."/>
+    <remote name="cm"
+            fetch="https://github.com/CyanogenMod"
+           review="review.cyanogenmod.org" 
+           revision="cm-12.1" />
+    <remote name="tm"
+            fetch="https://github.com/TheMuppets"
+            revision="cm-12.1"/>
     <remote name="omni"
             fetch="https://github.com/omnirom"
             revision="android-5.1" />
