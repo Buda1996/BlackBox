@@ -45,10 +45,11 @@
   <project path="system/media" name="BlackBox-OS/system_media" groups="pdk" revision="BB-5.1"/>
   <!-- BlackBox Repo Ends -->
   <!-- TWRP from OmniROM -->
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="omni" groups="pdk" />
+  <!--<project path="bootable/recovery" name="android_bootable_recovery" remote="omni" groups="pdk" />-->
   <!-- End of Omni, CM/AOSP Repo Starts -->
 <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
 <project path="art" name="CyanogenMod/android_art" groups="pdk" />
+<project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
 <project path="cts" name="CyanogenMod/android_cts" groups="cts,pdk-cw-fs" />
 <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" remote="aosp" />
 <project path="developers/build" name="platform/developers/build" remote="aosp" />
