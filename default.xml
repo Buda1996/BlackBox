@@ -8,21 +8,20 @@
 
     <remote  name="github"
            fetch=".."/>
+    
     <remote name="cm"
             fetch="https://github.com/CyanogenMod"
            review="review.cyanogenmod.org" 
            revision="cm-12.1" />
+    
     <remote name="tm"
             fetch="https://github.com/TheMuppets"
             revision="cm-12.1"/>
-    <remote name="omni"
-            fetch="https://github.com/omnirom"
-            revision="android-5.1" />
 
-  <remote  name="private"
+    <remote  name="private"
            fetch="ssh://git@github.com" />
 
-   <default revision="refs/heads/cm-12.1"
+    <default revision="refs/heads/cm-12.1"
            remote="github"
            sync-c="true"
            sync-j="4" />
@@ -40,9 +39,7 @@
   <project path="packages/apps/Settings" name="BlackBox-OS/packages_apps_Settings" revision="BB-5.1" />
   <project path="bionic" name="BlackBox-OS/bionic" revision="BB-5.1" groups="pdk" />
   <!-- BlackBox Repo Ends -->
-  <!-- TWRP from OmniROM -->
-  <!--<project path="bootable/recovery" name="android_bootable_recovery" remote="omni" groups="pdk" />-->
-  <!-- End of Omni, CM/AOSP Repo Starts -->
+  <!--CM/AOSP Repo Starts -->
 <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
 <project path="art" name="CyanogenMod/android_art" groups="pdk" />
 <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
@@ -352,6 +349,7 @@
 <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" />
 <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" remote="aosp" />
 <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" remote="aosp" />
+<project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" />
 <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
 <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
 <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" groups="pdk" />
@@ -360,6 +358,7 @@
 <project path="frameworks/minikin" name="CyanogenMod/android_frameworks_minikin" groups="pdk-cw-fs" />
 <project path="frameworks/ml" name="CyanogenMod/android_frameworks_ml" />
 <project path="frameworks/multidex" name="CyanogenMod/android_frameworks_multidex" groups="pdk-cw-fs" />
+<project path="frameworks/native" name="CyanogenMod/android_frameworks_native" groups="pdk" />
 <project path="frameworks/opt/bitmap" name="CyanogenMod/android_frameworks_opt_bitmap" />
 <project path="frameworks/opt/bluetooth" name="CyanogenMod/android_frameworks_opt_bluetooth" groups="pdk-cw-fs" />
 <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" />
@@ -461,12 +460,6 @@
 <project path="packages/apps/Camera2" name="CyanogenMod/android_packages_apps_Camera2" />
 <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" />
 <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" />
-<project path="packages/apps/CMAccount" name="CyanogenMod/android_packages_apps_CMAccount" />
-<project path="packages/apps/CMBugReport" name="CyanogenMod/android_packages_apps_CMBugreport" />
-<project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" />
-<!-- <project path="packages/apps/CMHome" name="CyanogenMod/android_packages_apps_CMHome" /> -->
-<project path="packages/apps/CMUpdater" name="CyanogenMod/android_packages_apps_CMUpdater" />
-<project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" />
 <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" />
 <project path="packages/apps/ContactsCommon" name="CyanogenMod/android_packages_apps_ContactsCommon" />
 <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" />
@@ -580,6 +573,7 @@
 <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" />
 <project path="system/extras/su" name="CyanogenMod/android_system_extras_su" />
 <project path="system/keymaster" name="CyanogenMod/android_system_keymaster" groups="pdk" />
+<project path="system/media" name="CyanogenMod/android_system_media" groups="pdk" />
 <project path="system/netd" name="CyanogenMod/android_system_netd" groups="pdk" />
 <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" />
 <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" />
