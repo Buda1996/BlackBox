@@ -1,50 +1,49 @@
-CyanogenMod
-===========
-
-Submitting Patches
-------------------
-Patches are always welcome!  Please submit your patches via CyanogenMod Gerrit!
-You can do this by using these commands:
-
-    (From root android directory)
-    . build/envsetup.sh
-    (Go to repo you are patching, make your changes and commit)
-    cmgerrit <for(new)/changes(patch set)> <branch/change-id> 
-
-    repo start cm-12.1 .
-    (Make your changes and commit)
-    repo upload .
-Note: "." meaning current directory
-For more help on using this tool, use this command: repo help upload
-
-Make your changes and commit with a detailed message, starting with what you are working with (i.e. vision: Update Kernel)
-Commit your patches in a single commit. Squash multiple commit using this command: git rebase -i HEAD~<# of commits>
-
-To view the status of your and others' patches, visit [CyanogenMod Code Review](http://review.cyanogenmod.org/)
-
+[![Alt text](http://s14.postimg.org/a1yhsqbe9/BLACKBOX.png)](http://www.blackbox-os.gq)
+# BlackBox-OS [Platform Manifest]
+###### Let's get started with your build for BlackBox-OS. The branch you are looking at is 5.1 lollipop branch, if you are looking to build a different version of blackbox change the branch from the top left corner.
 
 Getting Started
 ---------------
+To get started with the BlackBox-Project sources, you'll need to get
+familiar with [Git and Repo](http://source.android.com/source/version-control.html).
 
-To get started with Android/CyanogenMod, you'll need to get
-familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
+Creating Directories
+---------------
+You will need to set up some directories in your build environment.
 
-To initialize your local repository using the CyanogenMod trees, use a command like this:
+To create them run:
 
-    repo init -u git://github.com/CyanogenMod/android.git -b cm-12.1
+    mkdir ~/blackbox
 
-Then to sync up:
 
-    repo sync
+Syncing Sources
+---------------
+Next step is to sync the sources so that you can get started with your geeky lifestyle. Run the following code in the terminal window.
 
-Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.org/) for building instructions.
+    repo init -u https://github.com/BlackBox-OS/BlackBox.git -b BB-5.1
+    &&
+    repo sync -f
 
-For more information on this Github Organization and how it is structured, 
-please [read the wiki article](http://wiki.cyanogenmod.org/w/Github_Organization)
+The first code will initialize the repo and the second command will start syncing the project. (Grab yourself some coffee, coz its gonna take some time)
 
-Buildbot
---------
 
-All supported devices are built nightly and periodically as changes are committed to ensure the source trees remain buildable.
+Build The ROM
+-------------------
+Initialize the environment with the envsetup.sh script. Note that replacing "source" with a single dot saves a few characters, and the short form is more commonly used in documentation.
 
-You can view the current build statuses at [CyanogenMod Jenkins](http://jenkins.cyanogenmod.org/)
+    . build/envsetup.sh
+    brunch [Codename] (Codename is the Codename of your device -_-)
+
+Codename examples, Nexus 5- Hammerhead. Nexus 6- Shamu. OnePlus One- Bacon.
+Or simply run our build script
+```    
+    ./blackbuild.sh
+    
+```
+And follow the on screen instructions
+
+Need Help
+-------------------
+**Device isn't supported? Not a problem! Become a maintainer [Read] (https://blackbox-os.gq)**
+
+**To Read More Details Visit Our Official Site [Read] (https://blackbox-os.gq)**
