@@ -13,10 +13,6 @@
             fetch="https://github.com/CyanogenMod"
            review="review.cyanogenmod.org" 
            revision="cm-12.1" />
-    
-    <remote name="tm"
-            fetch="https://github.com/TheMuppets"
-            revision="cm-12.1"/>
 
     <remote  name="private"
            fetch="ssh://git@github.com" />
@@ -33,7 +29,7 @@
   <project path="android" name="BlackBox-OS/BlackBox" revision="BB-5.1" />
   <project path="frameworks/base" name="BlackBox-OS/frameworks_base" revision="BB-5.1" />
   <project path="vendor/BlackBox" name="BlackBox-OS/vendor_blackbox" revision="BB-5.1" >
-  <copyfile src="tools/build-blackbox.sh" dest="build-blackbox.sh" />
+  <copyfile src="tools/build-blackbox.sh" dest="blackbuild.sh" />
   </project>
   <project path="system/core" name="BlackBox-OS/system_core" revision="BB-5.1" />
   <project path="packages/apps/Settings" name="BlackBox-OS/packages_apps_Settings" revision="BB-5.1" />
