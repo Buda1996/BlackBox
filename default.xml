@@ -7,11 +7,16 @@
            revision="refs/tags/android-5.1.1_r3" />
 
   <remote  name="github"
-           fetch=".."
+           fetch="https://github.com" />
+  
+  <remote  name="cm"
+           fetch="https://github.com/CyanogenMod"
+           revision="cm-12.1"
            review="review.cyanogenmod.org" />
-
-  <remote  name="private"
-           fetch="ssh://git@github.com" />
+  
+  <remote  name="tm"
+           fetch="https://github.com/TheMuppets"
+           revision="cm-12.1" />
 
   <default revision="refs/heads/cm-12.1"
            remote="github"
